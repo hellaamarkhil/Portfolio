@@ -1,0 +1,158 @@
+body{
+    color: #ffff;
+    background-color: #D9D9D9;
+}
+.nav-box {
+  background-color: #f0f0f0; 
+  border: 2px solid #ccc;    
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: 0;
+  text-align: right;
+  height: 20px;
+  width: fit-content;
+  border-radius: 8px;        
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  
+}
+.section1{
+    display: flex;
+    text-align: left;
+    background-color: #212020;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+ 
+
+}
+.text{
+    flex: 1;
+  font-size: 35px;
+  padding-left: 100px;
+  padding-top: 60px;
+  
+}
+.right-image{
+ width: 500px;
+  height: auto;
+  margin-left: 15px;
+ 
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #212020;
+    border-radius: 50px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 500px;
+    font-size: 30px;
+}
+.text2{
+  flex: 1;
+  font-size: 40px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px 40px;
+      padding-left: 20px;
+      padding-top: 40px;
+      padding-right: 20px;
+    }
+
+    .skill {
+      background-color: #2b2b2b;
+      border-radius: 999px;
+      overflow: hidden;
+      height: 36px;
+      position: relative;
+    }
+
+    .skill span {
+      position: absolute;
+      left: 16px;
+      top: 8px;
+      z-index: 2;
+      font-size: 14px;
+    }
+
+    .skill-bar {
+      height: 100%;
+      background-color: #4bd1dc;
+      border-radius: 999px 0 0 999px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+
+    @media (max-width: 600px) {
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .section3{
+      background-color:#4bd1dc ;
+      border-radius: 50px;
+      height: 200px;
+      margin-left: 300px;
+      margin-right: 300px;
+      margin-top: 50px;
+      text-align: center;
+    }
+    .text2{
+      color: black;
+      font-size: 25px;
+    }
+
+    .project{
+      background-color: #212020;
+      border-radius: 50px;
+      display: flex;
+      height: 200px;
+      text-align: left;
+      margin-left: 40px;
+      margin-right: 40px;
+      padding-left: 30px;
+      color: white;
+      padding-top: 10px;
+      margin-top: 15px;
+      align-content: flex-end;
+    }
+    .project-text{
+      color: #212020;
+      font-style: oblique;
+      text-align: center;
+    }
+
+    .Cooklet{
+      width: 150px;
+      height: 120px;
+      border-radius: 15px;
+      align-content: flex-end;
+    }
+    .description{
+      text-align: left;
+      align-items: flex-start;
+    }
+    .coffee{
+      background-color: #2b2b2b;
+      border-radius: 50px;
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px;
+      
+    }
